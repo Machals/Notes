@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3416" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3787" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,10 +11,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U8RlGA_P-cpTlbUNoO_q-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RegisterObserver(string,IObserver):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RemoveObserver(string,object):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ NotifyObservers(INotification):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RegisterMediator(IMediator):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RetrieveIMediator(string):IMediator&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RemoveMediator(string):IMediator&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ HasMediator(string):bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="200" width="280" height="180" as="geometry" />
+          <mxGeometry x="595" y="185" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="U8RlGA_P-cpTlbUNoO_q-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RegisterCommand(string,Func&amp;lt;ICommand&amp;gt;):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ExecuteCommand(INotification):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RemoveCommand(string):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ HasCommand(string):bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="860" y="225" width="300" height="140" as="geometry" />
+          <mxGeometry x="960" y="225" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="U8RlGA_P-cpTlbUNoO_q-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IProxy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;ProxyName:string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Data:object&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ OnRegister:void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ OnRemove:void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-367.5" y="470" width="125" height="130" as="geometry" />
@@ -62,23 +62,63 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U8RlGA_P-cpTlbUNoO_q-25" value="Model" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="480" width="160" height="86" as="geometry">
+          <mxGeometry x="212.5" y="470" width="305" height="120" as="geometry">
             <mxRectangle x="280" y="480" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U8RlGA_P-cpTlbUNoO_q-26" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-25">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="U8RlGA_P-cpTlbUNoO_q-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-25">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="26" width="305" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="U8RlGA_P-cpTlbUNoO_q-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-25">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-26" value="&lt;u&gt;# instance:&amp;nbsp;IModel&lt;/u&gt;&lt;div&gt;#&amp;nbsp;proxyMap:ConcurrentDictionary&amp;lt;string, IProxy&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-25">
+          <mxGeometry y="34" width="305" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="U8RlGA_P-cpTlbUNoO_q-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-28" value="&lt;div&gt;+&lt;u&gt; GetInstance(&lt;span style=&quot;background-color: initial;&quot;&gt;factory:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Func&amp;lt;IModel&amp;gt;):IModel&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;#&amp;nbsp;InitializeModel()&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-25">
+          <mxGeometry y="78" width="305" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8RlGA_P-cpTlbUNoO_q-25" target="U8RlGA_P-cpTlbUNoO_q-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="280" y="630" as="sourcePoint" />
             <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-30" value="View" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="561.25" y="470" width="347.5" height="160" as="geometry">
+            <mxRectangle x="280" y="480" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-31" value="&lt;u&gt;# instance:IView&lt;/u&gt;&lt;div&gt;# observerMap:ConcurrentDictionary&amp;lt;string,IList&amp;lt;IObserver&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;# mediatorMap:ConcurrentDictionary&amp;lt;string,IMediator&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-30">
+          <mxGeometry y="26" width="347.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-30">
+          <mxGeometry y="80" width="347.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-33" value="&lt;div&gt;+&lt;u&gt; GetInstance(&lt;span style=&quot;background-color: initial;&quot;&gt;factory:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Func&amp;lt;IView&amp;gt;):IView&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;#&amp;nbsp;InitializeView()&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-30">
+          <mxGeometry y="88" width="347.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8RlGA_P-cpTlbUNoO_q-30" target="U8RlGA_P-cpTlbUNoO_q-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="649.5699999999999" y="485" as="sourcePoint" />
+            <mxPoint x="649.5699999999999" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-35" value="Controller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="936.25" y="470" width="347.5" height="160" as="geometry">
+            <mxRectangle x="280" y="480" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-36" value="&lt;u&gt;# instance:IController&lt;/u&gt;&lt;div&gt;#&amp;nbsp;commandMap:ConcurrentDictionary&amp;lt;string,Func&amp;lt;ICommand&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;# view:IView&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-35">
+          <mxGeometry y="26" width="347.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-35">
+          <mxGeometry y="80" width="347.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-38" value="&lt;div&gt;+&lt;u&gt; GetInstance(&lt;span style=&quot;background-color: initial;&quot;&gt;factory:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Func&amp;lt;IController&amp;gt;):IController&lt;/span&gt;&lt;/u&gt;&lt;/div&gt;#&amp;nbsp;InitializeController()&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U8RlGA_P-cpTlbUNoO_q-35">
+          <mxGeometry y="88" width="347.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="U8RlGA_P-cpTlbUNoO_q-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="U8RlGA_P-cpTlbUNoO_q-35" target="U8RlGA_P-cpTlbUNoO_q-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="505" as="sourcePoint" />
+            <mxPoint x="1090" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
